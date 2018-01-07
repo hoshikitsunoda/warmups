@@ -1,0 +1,9 @@
+$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+$cool-red: #f44336;
+$center: center;
+
+h1.title {
+  font: $title-font;
+  color: $cool-red;
+  text-align: $center;
+}

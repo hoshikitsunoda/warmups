@@ -1,0 +1,53 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+  margin: 0;
+}
+
+#mainbox {
+  float: left;
+  height: 100%;
+  width: calc(100% / 5 * 4 - 2px);
+  border-right: 1px solid grey;
+}
+
+#sidebox {
+  float: left;
+  height: 100%;
+  width: calc(100% / 5);
+}
+
+#mainheader {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: yellow;
+}
+
+#headerimg {
+  position: relative;
+  width: 100%;
+  height: 15%;
+  background-color: tomato;
+}
+
+#mainfooter {
+  position: absolute;
+  width: calc(100% / 5 * 4 - 2px);
+  height: 60%;
+  bottom: 0;
+  background-color: green;
+  border-right: 1px solid grey;
+  top: 50%;
+}
+
+.col-3 {
+  position: relative;
+  float: left;
+  width: calc(100% / 3 - 1%);
+  height: 50%;
+  background-color: skyblue;
+  margin-right: 1%;
+}
