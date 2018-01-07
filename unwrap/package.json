@@ -1,0 +1,20 @@
+{
+  "name": "unwrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tdd": "mocha -w *.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "mocha-jsdom": "^1.1.0",
+    "chai-dom": "^1.5.0",
+    "jsdom": "^11.3.0"
+  }
+}

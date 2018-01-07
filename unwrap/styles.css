@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 10px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  background: #f1f2f1;
+  text-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.3),
+    2px 5px 15px rgba(0, 0, 0, 0.15),
+    -2px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  display: block;
+  position: absolute;
+  height: 80%;
+  top: 5%;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 5rem;
+}
+
+h2 {
+  display: block;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 49.5%;
+  top: 25%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 4rem;
+}
+
+li {
+  display: block;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  left: 55%;
+  top: 70%;
+  list-style: none;
+  text-align: center;
+  font-size: 3rem;
+  transform: translateX(-50%);
+}
+
+ul {
+  width: 100%;
+  display: block;
+  position: absolute;
+  height: 80%;
+  top: 40%;
+  left: 45%;
+  font-size: 4rem;
+  transform: translateX(-50%);
+}
