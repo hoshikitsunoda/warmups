@@ -1,0 +1,5 @@
+.DS_store
+.sass-cache
+node_modules
+web-audio-scheduler-test/
+web-worker-test/
